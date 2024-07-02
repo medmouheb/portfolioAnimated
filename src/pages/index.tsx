@@ -1,12 +1,4 @@
 import { Cursor } from "@/components/_shared";
-import { Navbar } from "@/components/layout";
-import {
-  Hero,
-  Parallax,
-  Services,
-  Portfolio,
-  Contact,
-} from "@/components/home";
 
 import dynamic from 'next/dynamic';
 const MyComponent1 = dynamic(() => import('../components/layout/Navbar').then((mod)=>mod.Navbar), {
